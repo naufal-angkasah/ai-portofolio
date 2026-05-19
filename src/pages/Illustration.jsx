@@ -4,10 +4,10 @@ import './Illustration.css'
 const works = [
   {
     id: 1,
-    category: 'Editorial',
+    category: 'Dummy',
     title: 'Solstice Zine Vol.3',
     desc: 'Cover and 8 interior spreads for an independent literary zine exploring the theme of seasonal longing. Soft watercolor textures with digital linework.',
-    tags: ['Editorial', 'Zine', 'Watercolor', 'Cover Art'],
+    tags: ['Crayon', 'Cover Art'],
     palette: ['#c8d5b9', '#f0c8b4', '#b8f059', '#e8dfc8'],
     emoji: '📰',
   },
@@ -98,14 +98,11 @@ export default function Illustration() {
         <div className="container">
           <div className="section-header">
             <span className="section-tag">My Style</span>
-            <h2 className="section-title">Soft lines. Warm palettes.<br /><em>Honest feeling.</em></h2>
+            <h2 className="section-title">Soft strokes. Warm palettes.<br /><em>Honest feeling.</em></h2>
           </div>
           <div className="style-chips">
             {[
-              { label: 'Soft Watercolor', emoji: '🎨' },
-              { label: 'Digital Gouache', emoji: '🖌️' },
-              { label: 'Line & Wash', emoji: '✏️' },
-              { label: 'Flat Editorial', emoji: '📐' },
+              { label: 'Soft Crayon', emoji: '🎨' },
               { label: 'Textured Digital', emoji: '🌿' },
               { label: 'Cozy Character', emoji: '🧸' },
             ].map(s => (
@@ -201,14 +198,11 @@ export default function Illustration() {
           <span className="section-tag">Commission Open</span>
           <h2 className="section-title">Let's make something<br /><em>beautiful together.</em></h2>
           <p className="section-subtitle" style={{ marginBottom:'2rem' }}>
-            Editorial, books, branding, personal gifts — if it needs illustration, let's talk.
+            
           </p>
           <div style={{ display:'flex', gap:'1rem', justifyContent:'center', flexWrap:'wrap' }}>
-            <a href="mailto:zaitun@email.com" className="btn btn-lime" style={{ fontSize:'1rem', padding:'0.9rem 2.5rem' }}>
+            <a href="mailto:ludnizaitun@gmail.com" className="btn btn-lime" style={{ fontSize:'1rem', padding:'0.9rem 2.5rem' }}>
               🎨 Open a Commission
-            </a>
-            <a href="https://behance.net" target="_blank" rel="noreferrer" className="btn btn-outline">
-              View on Behance ↗
             </a>
           </div>
         </div>

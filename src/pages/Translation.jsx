@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { Link } from 'react-router-dom'
 import './Translation.css'
 
@@ -59,12 +60,11 @@ const projects = [
 ]
 
 const skills = [
-  { label: 'Japanese → English', level: 95 },
   { label: 'English → Indonesian', level: 92 },
-  { label: 'Japanese → Indonesian', level: 88 },
-  { label: 'Game Localization', level: 90 },
-  { label: 'Literary Translation', level: 96 },
+  { label: 'Indonesian → English', level: 90 },
+    { label: 'Literary Translation', level: 96 },
   { label: 'Subtitle Adaptation', level: 85 },
+  { label: 'Game Localization', level: 80 },
 ]
 
 const tools = ['SDL Trados Studio', 'memoQ', 'Memsource', 'Smartcat', 'Aegisub', 'Notepad++', 'CAT Tools', 'TM Management']
@@ -89,7 +89,6 @@ export default function Translation() {
           </p>
           <div style={{ display:'flex', gap:'1rem', justifyContent:'center', flexWrap:'wrap' }}>
             <a href="#projects" className="btn btn-primary">View Projects</a>
-            <a href="mailto:zaitun@email.com" className="btn btn-outline">Request a Quote</a>
           </div>
         </div>
       </section>
@@ -99,9 +98,8 @@ export default function Translation() {
         <div className="container">
           <div className="lang-pairs">
             {[
-              { from:'日本語', to:'English',   flag:'🇯🇵→🇬🇧', label:'JP → EN' },
-              { from:'English', to:'Bahasa',   flag:'🇬🇧→🇮🇩', label:'EN → ID' },
-              { from:'日本語', to:'Bahasa',    flag:'🇯🇵→🇮🇩', label:'JP → ID' },
+              { from:'English', to:'Bahasa Indonesia',   flag:'🇺🇸→🇮🇩', label:'EN → ID' },
+              { from:'Bahasa Indonesia', to:'English',   flag:'🇮🇩→🇺🇸', label:'ID → EN' },
             ].map((lp) => (
               <div key={lp.label} className="lang-pair card">
                 <div className="lang-pair__flag">{lp.flag}</div>
@@ -187,9 +185,8 @@ export default function Translation() {
             <div className="trans-certs">
               <h3 className="trans-tools__title" style={{ marginTop:'2rem' }}>Certifications</h3>
               {[
-                '🎓 JLPT N2 — Japanese Language Proficiency',
-                '📜 ATA Associate Member',
-                '🏅 BNSP Certified Translator',
+                '📜 TOEFL 510 — English Language Proficiency',
+                '🎓 JLPT N5 — Japanese Language Proficiency',
               ].map(c => (
                 <div key={c} className="cert-item card">{c}</div>
               ))}
@@ -206,7 +203,7 @@ export default function Translation() {
           <p className="section-subtitle" style={{ marginBottom:'2rem' }}>
             Every great story deserves to live in more than one language.
           </p>
-          <a href="mailto:zaitun@email.com" className="btn btn-lime" style={{ fontSize:'1rem', padding:'0.9rem 2.5rem' }}>
+          <a href="mailto:ludnizaitun@gmail.com" className="btn btn-lime" style={{ fontSize:'1rem', padding:'0.9rem 2.5rem' }}>
             📬 Get a Free Quote
           </a>
         </div>

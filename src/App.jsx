@@ -5,7 +5,7 @@ import Home from './pages/Home'
 import Translation from './pages/Translation'
 import Illustration from './pages/Illustration'
 import Modelling3D from './pages/Modelling3D'
-import './App.css'
+import './App.css' 
 
 function App() {
   return (

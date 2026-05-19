@@ -40,10 +40,9 @@ export default function Footer() {
         <div className="footer__contact">
           <h4>Get in Touch</h4>
           <ul>
-            <li><a href="mailto:zaitun@email.com">zaitun@email.com</a></li>
-            <li><a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a></li>
-            <li><a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a></li>
-            <li><a href="https://behance.net" target="_blank" rel="noreferrer">Behance</a></li>
+            <li><a href="mailto:ludnizaitun@gmail.com">Email</a></li>
+            <li><a href="https://www.linkedin.com/in/zaitun-ludni-a21004307/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/zaitunludni/" target="_blank" rel="noreferrer">Instagram</a></li>
           </ul>
         </div>
       </div>

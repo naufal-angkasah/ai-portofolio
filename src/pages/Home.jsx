@@ -7,7 +7,7 @@ const roles = [
     title: 'Translation',
     path: '/translation',
     desc: 'Bridging languages with cultural nuance — Japanese, English & Indonesian localization for books, games, and media.',
-    tags: ['JA→EN', 'EN→ID', 'Literary', 'Game L10n'],
+    tags: ['EN→ID', 'ID→EN', 'Literary', 'Subtitle'],
     color: 'role--blue',
   },
   {
@@ -57,11 +57,11 @@ export default function Home() {
               <em>Ludni</em>
             </h1>
             <p className="hero__role-line">
-              <span className="role-pill">Translator</span>
+              <span className="role-pill">Translation</span>
               <span className="role-sep">·</span>
-              <span className="role-pill">Illustrator</span>
+              <span className="role-pill">Illustration</span>
               <span className="role-sep">·</span>
-              <span className="role-pill">3D Artist</span>
+              <span className="role-pill">3D Modelling</span>
             </p>
             <p className="hero__desc fade-up delay-2">
               A multidisciplinary creative who lives at the intersection of
@@ -72,7 +72,7 @@ export default function Home() {
               <Link to="/illustration" className="btn btn-primary">
                 Explore Portfolio ↓
               </Link>
-              <a href="mailto:zaitun@email.com" className="btn btn-outline">
+              <a href="mailto:ludnizaitun@gmail.com" className="btn btn-outline">
                 Say Hello 🌿
               </a>
             </div>
@@ -162,7 +162,7 @@ export default function Home() {
               A quiet creative<br />in a loud world.
             </h2>
             <p>
-              I'm Zaitun — a creative practitioner from Indonesia with a love for things that
+              I'm Zaitun Ludni — a creative practitioner from Indonesia with a love for things that
               feel <em>handcrafted and considered.</em> Whether I'm untangling a Japanese sentence,
               painting a character into existence, or sculpting a cozy 3D world, I bring the
               same energy: slow, intentional, and full of care.
@@ -173,7 +173,7 @@ export default function Home() {
               poster, a world worth exploring. That's what I'm always reaching for.
             </p>
             <div style={{ marginTop:'2rem', display:'flex', gap:'1rem', flexWrap:'wrap' }}>
-              <a href="mailto:zaitun@email.com" className="btn btn-primary">Work With Me</a>
+              <a href="mailto:ludnizaitun@gmail.com" className="btn btn-primary">Work With Me</a>
               <Link to="/illustration" className="btn btn-outline">View Portfolio</Link>
             </div>
           </div>
@@ -207,7 +207,7 @@ export default function Home() {
           <p className="contact-sub">
             Open to freelance projects, commissions, and conversations that feel meaningful.
           </p>
-          <a href="mailto:zaitun@email.com" className="btn btn-lime" style={{ fontSize:'1rem', padding:'0.9rem 2.5rem' }}>
+          <a href="mailto:ludnizaitun@gmail.com" className="btn btn-lime" style={{ fontSize:'1rem', padding:'0.9rem 2.5rem' }}>
             📬 Send a Message
           </a>
         </div>
